@@ -287,10 +287,13 @@ release\moc_window.cpp: ..\ComReader\window.h \
 		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtGui\qtouchdevice.h \
 		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtWidgets\qtabwidget.h \
 		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtGui\qicon.h \
+		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtWidgets\QMessageBox \
+		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtWidgets\qmessagebox.h \
+		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtWidgets\qdialog.h \
 		..\ComReader\connector.h \
 		release\moc_predefs.h \
 		D:\PROGRAMS\Qt\5.14.2\msvc2017\bin\moc.exe
-	D:\PROGRAMS\Qt\5.14.2\msvc2017\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include D:/PROGRAMMING/Qt/MyProjects/ComReader/build-ComReader-Desktop_Qt_5_14_2_MSVC2017_32bit-Debug/release/moc_predefs.h -ID:/PROGRAMS/Qt/5.14.2/msvc2017/mkspecs/win32-msvc -ID:/PROGRAMMING/Qt/MyProjects/ComReader/ComReader -ID:/PROGRAMS/Qt/5.14.2/msvc2017/include -ID:/PROGRAMS/Qt/5.14.2/msvc2017/include/QtWidgets -ID:/PROGRAMS/Qt/5.14.2/msvc2017/include/QtGui -ID:/PROGRAMS/Qt/5.14.2/msvc2017/include/QtANGLE -ID:/PROGRAMS/Qt/5.14.2/msvc2017/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt" ..\ComReader\window.h -o release\moc_window.cpp
+	D:\PROGRAMS\Qt\5.14.2\msvc2017\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include D:/PROGRAMMING/Qt/MyProjects/SimpleComReader/build-ComReader-Desktop_Qt_5_14_2_MSVC2017_32bit-Debug/release/moc_predefs.h -ID:/PROGRAMS/Qt/5.14.2/msvc2017/mkspecs/win32-msvc -ID:/PROGRAMMING/Qt/MyProjects/SimpleComReader/ComReader -ID:/PROGRAMS/Qt/5.14.2/msvc2017/include -ID:/PROGRAMS/Qt/5.14.2/msvc2017/include/QtWidgets -ID:/PROGRAMS/Qt/5.14.2/msvc2017/include/QtGui -ID:/PROGRAMS/Qt/5.14.2/msvc2017/include/QtANGLE -ID:/PROGRAMS/Qt/5.14.2/msvc2017/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt" ..\ComReader\window.h -o release\moc_window.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -425,6 +428,9 @@ release\main.obj: ..\ComReader\main.cpp ..\ComReader\window.h \
 		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtGui\qtouchdevice.h \
 		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtWidgets\qtabwidget.h \
 		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtGui\qicon.h \
+		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtWidgets\QMessageBox \
+		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtWidgets\qmessagebox.h \
+		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtWidgets\qdialog.h \
 		..\ComReader\connector.h \
 		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtWidgets\QApplication \
 		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtWidgets\qapplication.h \
@@ -542,6 +548,9 @@ release\window.obj: ..\ComReader\window.cpp ..\ComReader\window.h \
 		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtGui\qtouchdevice.h \
 		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtWidgets\qtabwidget.h \
 		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtGui\qicon.h \
+		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtWidgets\QMessageBox \
+		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtWidgets\qmessagebox.h \
+		D:\PROGRAMS\Qt\5.14.2\msvc2017\include\QtWidgets\qdialog.h \
 		..\ComReader\connector.h \
 		ui_window.h
 

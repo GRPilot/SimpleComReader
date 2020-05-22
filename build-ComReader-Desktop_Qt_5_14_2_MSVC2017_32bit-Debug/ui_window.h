@@ -10,6 +10,7 @@
 #define UI_WINDOW_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QDoubleSpinBox>
@@ -56,11 +57,14 @@ public:
         if (Window->objectName().isEmpty())
             Window->setObjectName(QString::fromUtf8("Window"));
         Window->resize(470, 538);
-        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
+        QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(Window->sizePolicy().hasHeightForWidth());
         Window->setSizePolicy(sizePolicy);
+        QIcon icon;
+        icon.addFile(QString::fromUtf8("../Screenshots/icon.png"), QSize(), QIcon::Normal, QIcon::Off);
+        Window->setWindowIcon(icon);
         centralwidget = new QWidget(Window);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         InputFrame = new QFrame(centralwidget);
@@ -127,7 +131,7 @@ public:
         __qtablewidgetitem3->setFont(font);
         outTable->setHorizontalHeaderItem(3, __qtablewidgetitem3);
         outTable->setObjectName(QString::fromUtf8("outTable"));
-        outTable->setGeometry(QRect(10, 10, 431, 341));
+        outTable->setGeometry(QRect(10, 10, 431, 301));
         outTable->setAutoScroll(true);
         outTable->setEditTriggers(QAbstractItemView::NoEditTriggers);
         outTable->setSortingEnabled(true);
